@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 52px;
+    letter-spacing: 5px;
+}
+
+.wrapper {
+    background-color: #faf5eb;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    color: #692d55;
+}
+
+@media screen and (max-width: 800px) {
+    .wrapper {
+        background-color: #000000;
+    }
+}
