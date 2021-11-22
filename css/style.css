@@ -16,10 +16,16 @@ h1 {
     letter-spacing: 5px;
 }
 
+.subtitle {
+    display: none;
+    font-family: 'Great Vibes', cursive;
+}
+
 .wrapper {
     background-color: #faf5eb;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -28,7 +34,7 @@ h1 {
     color: #692d55;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
     .wrapper {
         background-color: #000000;
     }
@@ -39,7 +45,11 @@ h1 {
                      1px 1px 20px #6a82fb,
                      5px 5px 40px #6a82fb,
                      0 0 100px #000;
-    } 
+    }    
+}
 
-    
+@media screen and (min-width: 600px) and (max-width: 800px) {
+    .subtitle {
+        display: block;
+    }
 }
